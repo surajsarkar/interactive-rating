@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+body{
+    background-color: hsl(216, 12%, 8%);
+
+}
+main {
+  text-align: left;
+  vertical-align: center;
+}
+
+.question{
+    font-weight: 700;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    text-align: left;
+}
+.desc{
+    text-align: left;
+    font-size: 15px;
+    color: hsl(217, 12%, 63%);
+    opacity: 0.6;
+}
+
+.cbutton{
+    margin: 2px;
+    padding: 2px;
+    background-color:hsl(216, 12%, 54%);
+    color: white;
+    height:40px;
+    width: 40px;
+    text-aligh: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 100%;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    
+}
+.cbutton:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.main{
+    width: 350px;
+    height: 350px;
+    border-radius: 40px;
+    padding: 20px;
+    margin: auto;
+    background-color: hsl(213, 19%, 18%);
+    text-align: center;
+}
+
+.button-row{
+    display: flex;
+/*     background-color:red; */
+    justify-content: space-between;
+    
+}
+
+.submit{
+    padding: 15px 0px;
+    margin: 20px auto ;
+    text-align: center;
+    width: 100%;
+    border-radius: 40px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-weight: 400;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    
+}
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
