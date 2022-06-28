@@ -3,9 +3,18 @@ body{
     background-color: hsl(216, 12%, 8%);
 
 }
+
+#root{
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+}
 main {
-  text-align: left;
-  vertical-align: center;
+  text-align: center;
+    margin: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .question{
@@ -68,12 +77,23 @@ main {
     border-radius: 40px;
     background-color: hsl(25, 97%, 53%);
     color: white;
-    font-weight: 400;
+    font-weight: 700;
     font-family: 'Overpass', sans-serif;
     font-size: 15px;
+    letter-spacing: 1.5;
+    border: none;
     
 }
 .submit:hover{
     background-color: white;
     color: hsl(25, 97%, 53%);
+}
+
+.rating{
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(217, 12%, 63%);
+    padding:5px;
+    width: 170px;
+    border-radius:8px;
+    opacity:0.3;
 }

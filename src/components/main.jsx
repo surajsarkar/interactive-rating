@@ -1,8 +1,7 @@
 import React from 'react';
 
-var CircleButton = ({inside}) => {
-    return (<div className="cbutton">
-        {console.log("inside of circle button")}
+var CircleButton = ({inside, value, setRating}) => {
+    return (<div onClick={()=>setRating(value)} className="cbutton">
         <p>{inside}</p></div>);
 }
 
